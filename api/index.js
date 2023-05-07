@@ -5,7 +5,7 @@ import authRoute from "./routes/auth.js"
 import hotelsRoute from "./routes/hotels.js"
 import usersRoute from "./routes/users.js"
 import roomsRoute from "./routes/rooms.js"
-
+import cookieParser from "cookie-parser"
 
 
 
@@ -37,7 +37,7 @@ app.get("/", (req,res) => {
 //middlewares
 
 app.use(express.json())
-
+app.use(cookieParser())
 
 
 app.use("/api/auth", authRoute)
