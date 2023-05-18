@@ -48,7 +48,7 @@ border-radius: 20px;
     border: 3px solid #febb02;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 5px;
     padding: 10px 0;
     position: absolute;
@@ -59,4 +59,18 @@ border-radius: 20px;
 
 .headerIcon{
     color: lightgray;
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.headerSearchText{
+    color:lightgray
 }
