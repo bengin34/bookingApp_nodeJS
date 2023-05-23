@@ -83,6 +83,7 @@
 .date-range{
     position: absolute;
     top:53px;
+    left:262px;
     z-index: 2;
 }
 
