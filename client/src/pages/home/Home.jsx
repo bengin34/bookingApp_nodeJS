@@ -8,9 +8,9 @@ const Home = () => {
     <div>
     <Navbar/>
      <Header/>
-     <div className="homecontainer">
+     <div className="homeContainer">
       <Featured />
-      <Featured />
+      <h1 className="homeTitle" > Browse by property type</h1>
      </div>
     </div>
   )

@@ -83,6 +83,7 @@
 .date-range{
     position: absolute;
     top:53px;
+    z-index: 2;
 }
 
 .options{
@@ -92,7 +93,7 @@
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.4);
-
+    z-index: 2;
 
 }
 
