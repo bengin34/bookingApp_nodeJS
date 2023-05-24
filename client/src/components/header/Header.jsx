@@ -107,6 +107,7 @@ const Header = ({ type }) => {
                     moveRangeOnFirstSelection={false}
                     ranges={date}
                     className="date-range"
+                    minDate={new Date()}
                   />
                 )}
               </div>
