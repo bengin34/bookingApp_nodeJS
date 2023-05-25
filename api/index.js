@@ -6,6 +6,7 @@ import hotelsRoute from "./routes/hotels.js";
 import usersRoute from "./routes/users.js";
 import roomsRoute from "./routes/rooms.js";
 import cookieParser from "cookie-parser";
+import cors from "cors";
 
 const app = express();
 dotenv.config();
@@ -33,6 +34,7 @@ app.get("/", (req, res) => {
 //middlewares
 
 app.use(express.json());
+app.use(cors());
 app.use(cookieParser());
 
 app.use("/api/auth", authRoute);
