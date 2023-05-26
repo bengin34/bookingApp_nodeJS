@@ -23,8 +23,9 @@
 
 .propertyListTitles>h1{
     font-style: 18px;
+    text-transform: capitalize;
 }
-.propertyList>h2{
+.propertyListTitles>h3{
     font-style: 14px;
     font-weight: 300;
 }
